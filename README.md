@@ -2,21 +2,28 @@
 
 > **A hands-on DevOps lab demonstrating complete CI/CD pipeline implementation using Jenkins in local Kubernetes clusters**
 
+
+
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)](https://jenkins.io/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
 [![WSL](https://img.shields.io/badge/WSL2-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://docs.microsoft.com/en-us/windows/wsl/)
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Setup & Installation](#setup--installation)
-- [Pipeline Configuration](#pipeline-configuration)
-- [Troubleshooting](#troubleshooting)
-- [Results & Screenshots](#results--screenshots)
-- [Key Learnings](#key-learnings)
-- [Next Steps](#next-steps)
+## 📚 Table of Contents
+- [Summary](#-summary)
+- [Environment](#-environment)
+- [Setup Process](#-setup-process)
+  - [Provisioning WSL](#1--provisioning-wsl)
+  - [Verifying Rancher Desktop](#2--verifying-rancher-desktop)
+  - [Installing Jenkins via Helm](#3--installing-jenkins-via-helm)
+  - [Jenkins Setup & Pipeline](#4--jenkins-setup--pipeline-configuration)
+  - [Jenkins Interface & Plugins](#5--jenkins-interface--plugin-setup)
+  - [Minikube Setup](#6--minikube-setup--cluster-verification)
+  - [kubectl Verification](#7--kubectl-setup--pod-verification)
+  - [Minikube App Deployment](#8--minikube-app-deployment)
+  - [Kubernetes Dashboard](#9--kubernetes-dashboard-views)
+  - [Rancher Cluster Overview](#10--bonus-rancher-cluster-overview)
+- [Conclusion](#-conclusion)
 
 ## 🚀 Overview
 
@@ -252,6 +259,15 @@ This is a learning project, but I welcome feedback and suggestions! Feel free to
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/AaronG-Engineer/JenkinsLab)
+![GitHub repo size](https://img.shields.io/github/repo-size/AaronG-Engineer/JenkinsLab)
+![GitHub](https://img.shields.io/github/license/AaronG-Engineer/JenkinsLab)
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.28-blue?logo=kubernetes)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-red?logo=jenkins)
+![WSL2](https://img.shields.io/badge/WSL2-enabled-green?logo=windows)
 
 **Built with ❤️ as part of my DevOps learning journey**
 

@@ -68,9 +68,6 @@ Set-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Windows\System" -Name 
 wsl --install
 ```
 
-![WSL Provisioning](images/wsl_provisioning_terminal.png)
-*WSL2 Ubuntu provisioning with custom user account*
-
 ### 2. 🐳 Rancher Desktop Setup
 
 Installed and configured Rancher Desktop with K3s engine:
@@ -80,9 +77,6 @@ Installed and configured Rancher Desktop with K3s engine:
 kubectl get nodes
 kubectl get pods --all-namespaces
 ```
-
-![Rancher Dashboard](images/rancher_dashboard.png)
-*Rancher Desktop showing healthy K3s cluster*
 
 ### 3. 📦 Jenkins Installation via Helm
 
@@ -133,26 +127,55 @@ pipeline {
 }
 ```
 
-![Jenkins Pipeline](images/jenkins_pipeline_config.png)
-*Jenkins pipeline configuration showing multi-stage setup*
-
 ## 🎯 Results & Screenshots
 
 ### Jenkins Dashboard
-![Jenkins Welcome](images/jenkins_dashboard.png)
+![Jenkins Dashboard](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/Jenkins_Dashboard.png)
 *Jenkins dashboard showing successful installation and setup*
 
-### Pipeline Execution
-![Pipeline Console](images/jenkins_console_output.png)
+### Jenkins Console Output
+![Jenkins Console Output](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/Jenkins_Console_Output.png)
 *Console output showing successful pipeline execution with all stages*
 
-### Kubernetes Deployments
-![Rancher Deployments](images/rancher_deployments.png)
-*Rancher Desktop showing nginx deployment in Kubernetes cluster*
+### Jenkins Create Job
+![Jenkins Create](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/Jenkins_Create.png)
+*Creating a new Jenkins job with freestyle configuration*
 
-### Project Setup Options
-![Jenkins New Item](images/jenkins_new_item.png)
-*Jenkins project type selection including Pipeline and Freestyle options*
+### Jenkins Image
+![Jenkins Image](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/Jenkins_Image.png)
+*Docker image used for Jenkins container setup*
+
+### Rancher Cluster Running
+![Local Kubernetes Cluster](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/Local_Kubernetes%20cluster_running_Rancher.png)
+*Local Kubernetes cluster running Rancher Desktop*
+
+### Nginx Deployment
+![My Nginx](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/My_Nginx.png)
+*Nginx pod deployed via kubectl*
+
+### WSL Account Setup
+![WSL Account](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/WSL_account.png)
+*WSL user account setup for local dev environment*
+
+### Kubernetes Workloads
+![K8s Dashboard Workloads](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/k8s_dashboard_workloads.png)
+*Kubernetes dashboard showing active workloads*
+
+### Minikube Hello Service
+![Minikube Hello Lifecycle](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/minikube_hello_service_lifecycle.png)
+*Lifecycle of a sample hello-world service in Minikube*
+
+### Minikube Kubectl Setup
+![Minikube Kubectl Setup](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/minikube_kubectl_setup_and_pods.png)
+*Kubectl setup and pod visibility in Minikube*
+
+### Minikube Profile Recovery
+![Minikube Start Recovery](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/minikube_start_profile_recovery.png)
+*Recovering Minikube profile after failed start*
+
+### Pipeline Script
+![Pipeline Script](https://raw.githubusercontent.com/AaronG-Engineer/JenkinsLab/main/assets/pipeline_script.png)
+*Jenkins pipeline script showing stage definitions*
 
 ## 🛠️ Troubleshooting
 
